@@ -1,0 +1,61 @@
+{
+	"siren1":
+	{
+		"name" :
+		{
+			"plural" : "Sirens",
+			"singular" : "Siren"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 10
+		},
+		"faction" : "haven-old",
+		"aiValue" : 515,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"defense" : 9,
+		"fightValue" : 496,
+		"graphics" :
+		{
+			"animation" : "haven/battle/siren1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "haven/map/siren1mini.def",
+			"iconSmall" : "haven/iconsSmall/siren1s.bmp",
+			"iconLarge" : "haven/iconsBig/siren1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hitPoints" : 30,
+		"level" : 4,
+		"upgrades":
+		[
+			"siren2"
+		],
+		"sound" :
+		{
+			"attack": "haven/sirenkiss.wav",
+			"defend": "haven/sirenhit.wav",
+			"killed": "haven/sirendie.wav",
+			"move": "HARPMOVE.wav",
+			"wince": "haven/sirenhit.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			}
+		}
+	}
+}

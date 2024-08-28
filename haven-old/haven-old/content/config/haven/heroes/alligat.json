@@ -1,0 +1,59 @@
+{
+	"alligat" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "Alligat",
+			"biography" : "Raven long sought a good commander for his mission before finally drawing the attention of Alligat, the representative of the crab of race. Although crabs are famous for being poorly controllable, Alligat proved to be very sensible with their handling. Crabs under his command are especially strong and disciplined. All of this tipped the scales in favor of Alligat becoming one of the future commanders of the continental campaign of Raven.",
+			"specialty" :
+			{
+				"tooltip" : "Creature Bonus: Crabs",
+				"name" : "Crabs",
+				"description" : "Increases Speed of any Crabs by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/alligat/spec-small.png",
+			"specialtyLarge" : "haven/heroes/alligat/spec-large.png",
+			"large" : "haven/heroes/alligat/portrait-large.png",
+			"small" : "haven/heroes/alligat/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "crab1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "crab1"
+		}	
+	}
+}

@@ -1,0 +1,73 @@
+{
+	"siren2":
+	{
+		"name" :
+		{
+			"plural" : "Devil's Sirens",
+			"singular" : "Devil's Siren"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 16,
+			 "min" : 10
+		},
+		"faction" : "haven-old",
+		"aiValue" : 600,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 375
+		},
+		"damage" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"defense" : 9,
+		"fightValue" : 568,
+		"graphics" :
+		{
+			"animation" : "haven/battle/siren2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "haven/map/siren2mini.def",
+			"iconSmall" : "haven/iconsSmall/siren2s.bmp",
+			"iconLarge" : "haven/iconsBig/siren2l.bmp",
+			"timeBetweenFidgets" : 1
+        },
+		"growth" : 5,
+		"hitPoints" : 35,
+		"level" : 4,
+		"sound" :
+		{
+			"attack": "haven/sirenkiss.wav",
+			"defend": "haven/sirenhit.wav",
+			"killed": "haven/sirendie.wav",
+			"move": "HARPMOVE.wav",
+			"wince": "haven/sirenhit.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			},
+						"castsBloodlust" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 4
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			}
+		}
+	}
+}

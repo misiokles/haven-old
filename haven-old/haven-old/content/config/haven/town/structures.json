@@ -1,0 +1,54 @@
+{
+	"haven-old" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation":   { "animation" : "haven/town-screen/buildings/TBHVEXT6.def", "x" : 0, "y" : 0, "z" : 4 },
+				"mageGuild1" :      { "animation" : "haven/town-screen/buildings/mg1.def",   	"x" : 0, "y" : 0, "z" : 14, "border" : "haven/town-screen/buildings-border/mg1b.bmp", 	"area" : "haven/town-screen/buildings-area/mg1a.bmp" },
+				"mageGuild2" :      { "animation" : "haven/town-screen/buildings/mg2.def",   	"x" : 0, "y" : 0, "z" : 14, "border" : "haven/town-screen/buildings-border/mg2b.bmp", 	"area" : "haven/town-screen/buildings-area/mg2a.bmp" },
+				"mageGuild3" :      { "animation" : "haven/town-screen/buildings/mg3.def",   	"x" : 0, "y" : 0, "z" : 14, "border" : "haven/town-screen/buildings-border/mg3b.bmp", 	"area" : "haven/town-screen/buildings-area/mg3a.bmp" },
+				"mageGuild4" :      { "animation" : "haven/town-screen/buildings/mg4.def",   	"x" : 0, "y" : 0, "z" : 14, "border" : "haven/town-screen/buildings-border/mg4b.bmp", 	"area" : "haven/town-screen/buildings-area/mg4a.bmp" },
+				"mageGuild5" :      { "animation" : "haven/town-screen/buildings/mg5.def",   	"x" : 0, "y" : 0, "z" : 14, "border" : "haven/town-screen/buildings-border/mg5b.bmp", 	"area" : "haven/town-screen/buildings-area/mg5a.bmp" },
+				"ship" :            { "animation" : "haven/town-screen/buildings/boat.def",     "x" : 0, "y" : 0, "z" : 5,  "border" : "haven/town-screen/buildings-border/boatb.bmp", "area" : "haven/town-screen/buildings-area/boata.bmp", "hidden" : true },
+				"shipyard" :        { "animation" : "haven/town-screen/buildings/dock.def",     "x" : 0, "y" : 0, "z" : 4,  "border" : "haven/town-screen/buildings-border/dockb.bmp", "area" : "haven/town-screen/buildings-area/docka.bmp" },
+				"tavern" :          { "animation" : "haven/town-screen/buildings/tavern.def",  	"x" : 0, "y" : 0, "z" : 14, "border" : "haven/town-screen/buildings-border/tavernb.bmp",	"area" : "haven/town-screen/buildings-area/taverna.bmp" },
+				"fort" :            { "animation" : "haven/town-screen/buildings/cas1.def",   	"x" : 0, "y" : 0, "z" : 3, "border" : "haven/town-screen/buildings-border/cas1b.bmp", 	"area" : "haven/town-screen/buildings-area/cas1a.bmp" },
+				"citadel" :         { "animation" : "haven/town-screen/buildings/cas2.def",   	"x" : 0, "y" : 0, "z" : 3, "border" : "haven/town-screen/buildings-border/cas2b.bmp", 	"area" : "haven/town-screen/buildings-area/cas2a.bmp" },
+				"castle" :          { "animation" : "haven/town-screen/buildings/cas3.def",   	"x" : 0, "y" : 0, "z" : 3, "border" : "haven/town-screen/buildings-border/cas3b.bmp", 	"area" : "haven/town-screen/buildings-area/cas3a.bmp" },
+				"villageHall" :     { "animation" : "haven/town-screen/buildings/hall1.def",   	"x" : 0, "y" : 0, "z" : 13, "border" : "haven/town-screen/buildings-border/hall1b.bmp", 	"area" : "haven/town-screen/buildings-area/hall1a.bmp" },
+				"townHall" :        { "animation" : "haven/town-screen/buildings/hall2.def",   	"x" : 0, "y" : 0, "z" : 13, "border" : "haven/town-screen/buildings-border/hall2b.bmp", 	"area" : "haven/town-screen/buildings-area/hall2a.bmp" },
+				"cityHall" :        { "animation" : "haven/town-screen/buildings/hall3.def",   	"x" : 0, "y" : 0, "z" : 13, "border" : "haven/town-screen/buildings-border/hall3b.bmp", 	"area" : "haven/town-screen/buildings-area/hall3a.bmp" },
+				"capitol" :         { "animation" : "haven/town-screen/buildings/hall4.def",   	"x" : 0, "y" : 0, "z" : 13, "border" : "haven/town-screen/buildings-border/hall4b.bmp", 	"area" : "haven/town-screen/buildings-area/hall4a.bmp" },
+				"marketplace" :     { "animation" : "haven/town-screen/buildings/market.def",   "x" : 0, "y" : 0, "z" : 9, "border" : "haven/town-screen/buildings-border/marketb.bmp", "area" : "haven/town-screen/buildings-area/marketa.bmp" },
+				"resourceSilo" :    { "animation" : "haven/town-screen/buildings/silo.def",   	"x" : 0, "y" : 0, "z" : 8, "border" : "haven/town-screen/buildings-border/silob.bmp", 	"area" : "haven/town-screen/buildings-area/siloa.bmp" },
+				"blacksmith" :      { "animation" : "haven/town-screen/buildings/smith.def",   	"x" : 0, "y" : 0, "z" : 8, "border" : "haven/town-screen/buildings-border/smithb.bmp", 	"area" : "haven/town-screen/buildings-area/smitha.bmp" },
+				"special1" :        { "animation" : "haven/town-screen/buildings/spec1.def", 	"x" : 0, "y" : 0, "z" : 10, "border" : "haven/town-screen/buildings-border/spec1b.bmp", "area" : "haven/town-screen/buildings-area/spec1a.bmp" },
+				"special2" :        { "animation" : "haven/town-screen/buildings/spec2.def",  	"x" : 0, "y" : 0, "z" : 3, "border" : "haven/town-screen/buildings-border/spec2b.bmp", 	"area" : "haven/town-screen/buildings-area/spec2a.bmp" },
+				"special3" :        { "animation" : "haven/town-screen/buildings/spec3.def",   	"x" : 456, "y" : 143, "z" : 8, "border" : "haven/town-screen/buildings-border/special3b.bmp", 	"area" : "haven/town-screen/buildings-area/special3a.bmp" },
+				"horde1" :          { "animation" : "haven/town-screen/buildings/horde1.def",  	"x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/horde1b.bmp", 	"area" : "haven/town-screen/buildings-area/horde1a.bmp", "hidden" : true  },
+				"horde1Upg" :       { "animation" : "haven/town-screen/buildings/horde2.def",   "x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/horde2b.bmp", 	"area" : "haven/town-screen/buildings-area/horde2a.bmp", "hidden" : true, "builds" : "horde1" },
+				"grail" :           { "animation" : "haven/town-screen/buildings/grail.def",  	"x" : 0, "y" : 0, "z" : 6, "border" : "haven/town-screen/buildings-border/grailb.bmp", 	"area" : "haven/town-screen/buildings-area/graila.bmp" },
+				"extraTownHall":    { "animation" : "haven/town-screen/buildings/TBHVEXT3.def", "x" : 125, "y" : 342 },
+				"extraCityHall":    { "animation" : "haven/town-screen/buildings/TBHVEXT4.def", "x" : 376, "y" : 180 },
+				"extraCapitol":     { "animation" : "haven/town-screen/buildings/TBHVEXT5.def", "x" : 450, "y" : 203, "z" : 7 },
+				"dwellingLvl1" :    { "animation" : "haven/town-screen/buildings/dw1.def",   	"x" : 0, "y" : 0, "z" : 12, "border" : "haven/town-screen/buildings-border/dw1b.bmp", 	"area" : "haven/town-screen/buildings-area/dw1a.bmp" },
+				"dwellingLvl2" :    { "animation" : "haven/town-screen/buildings/dw2.def",   	"x" : 0, "y" : 0, "z" : 6, "border" : "haven/town-screen/buildings-border/dw2b.bmp", 	"area" : "haven/town-screen/buildings-area/dw2a.bmp" },
+				"dwellingLvl3" :    { "animation" : "haven/town-screen/buildings/dw3.def",   	"x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/dw3b.bmp", 	"area" : "haven/town-screen/buildings-area/dw3a.bmp" },
+				"dwellingLvl4" :    { "animation" : "haven/town-screen/buildings/dw4.def",   	"x" : 0, "y" : 0, "z" : 2, "border" : "haven/town-screen/buildings-border/dw4b.bmp", 	"area" : "haven/town-screen/buildings-area/dw4a.bmp" },
+				"dwellingLvl5" :    { "animation" : "haven/town-screen/buildings/dw5.def",   	"x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/dw5b.bmp", 	"area" : "haven/town-screen/buildings-area/dw5a.bmp" },
+				"dwellingLvl6" :    { "animation" : "haven/town-screen/buildings/dw6.def",   	"x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/dw6b.bmp", 	"area" : "haven/town-screen/buildings-area/dw6a.bmp" },
+				"dwellingLvl7" :    { "animation" : "haven/town-screen/buildings/dw7.def",   	"x" : 0, "y" : 0, "z" : 12, "border" : "haven/town-screen/buildings-border/dw7b.bmp", 	"area" : "haven/town-screen/buildings-area/dw7a.bmp" },
+				"dwellingUpLvl1" :  { "animation" : "haven/town-screen/buildings/dw1u.def",   	"x" : 0, "y" : 0, "z" : 12, "border" : "haven/town-screen/buildings-border/dw1ub.bmp", 	"area" : "haven/town-screen/buildings-area/dw1ua.bmp" },
+				"dwellingUpLvl2" :  { "animation" : "haven/town-screen/buildings/dw2u.def",   	"x" : 0, "y" : 0, "z" : 6, "border" : "haven/town-screen/buildings-border/dw2b.bmp", 	"area" : "haven/town-screen/buildings-area/dw2a.bmp" },
+				"dwellingUpLvl3" :  { "animation" : "haven/town-screen/buildings/dw3u.def",   	"x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/dw3ub.bmp", 	"area" : "haven/town-screen/buildings-area/dw3ua.bmp" },
+				"dwellingUpLvl4" :  { "animation" : "haven/town-screen/buildings/dw4u.def",   	"x" : 0, "y" : 0, "z" : 2, "border" : "haven/town-screen/buildings-border/dw4ub.bmp", 	"area" : "haven/town-screen/buildings-area/dw4ua.bmp" },
+				"dwellingUpLvl5" :  { "animation" : "haven/town-screen/buildings/dw5u.def",   	"x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/dw5b.bmp", 	"area" : "haven/town-screen/buildings-area/dw5a.bmp" },
+				"dwellingUpLvl6" :  { "animation" : "haven/town-screen/buildings/dw6u.def",   	"x" : 0, "y" : 0, "z" : 7, "border" : "haven/town-screen/buildings-border/dw6ub.bmp", 	"area" : "haven/town-screen/buildings-area/dw6ua.bmp" },
+				"dwellingUpLvl7" :  { "animation" : "haven/town-screen/buildings/dw7u.def",   	"x" : 0, "y" : 0, "z" : 12, "border" : "haven/town-screen/buildings-border/dw7b.bmp", 	"area" : "haven/town-screen/buildings-area/dw7a.bmp" }
+			}
+		}
+	}
+}
+

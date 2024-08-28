@@ -1,0 +1,59 @@
+{
+	"raven" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "Raven",
+			"biography" : "Raven is Strong-willed commander and a good diplomat. As Raven is a native of race the triton, he favors the use of those soldiers and they respond to him in return. Raven has the difficult task of mastering continental diplomacy ahead of him.",
+			"specialty" :
+			{
+				"tooltip" : "Creature Bonus: Triton",
+				"name" : "Triton",
+				"description" : "Increases Speed of any Triton by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "haven/heroes/raven/spec-small.png",
+			"specialtyLarge" : "haven/heroes/raven/spec-large.png",
+			"large" : "haven/heroes/raven/portrait-large.png",
+			"small" : "haven/heroes/raven/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "triton1"
+		}	
+	}
+}

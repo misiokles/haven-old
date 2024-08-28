@@ -1,0 +1,80 @@
+{
+	"seabishop1":
+	{
+		"name" :
+		{
+			"plural" : "Hydromancers",
+			"singular" : "Hydromancer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 12,
+			 "min" : 5
+		},
+		"faction" : "haven-old",
+		"aiValue" : 1963,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 950
+			
+		},
+		"damage" :
+		{
+			 "max" : 22,
+			 "min" : 15
+		},
+		"defense" : 13,
+		"fightValue" : 1704,
+		"graphics" :
+		{
+			"animation" : "haven/battle/seabishop1.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "haven/map/seabishop1mini.def",
+			"iconSmall" : "haven/iconsSmall/seabishop1s.bmp",
+			"iconLarge" : "haven/iconsBig/seabishop1l.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+     			"projectile" : "PMAGEX",
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},			
+		},
+		"growth" : 2,
+		"shots" : 24,		
+		"hitPoints" : 85,
+		"level" : 6,
+		"upgrades":
+		[
+			"seabishop2"
+		],
+		"sound" :
+		{
+			"attack": "PIKEATTK.wav",
+			"shoot": "ZELTSHOT.wav",			
+			"defend" : "haven/seablk.wav",
+			"killed" : "haven/seadie.wav",
+			"move": "haven/blank.wav",
+			"startMoving": "haven/seawlk.wav",
+			"endMoving": "haven/seawlk.wav",			
+			"wince": "PIKEWNCE.wav"
+		},
+		"speed" : 9,
+		"abilities" : 
+		{
+            "catapult": { "type": "CATAPULT" },
+			"shooter" :	{ "type" : "SHOOTER" },
+			"teleports" : { "subtype" : "movementTeleporting", "type" : "FLYING" }
+		}
+	}
+}

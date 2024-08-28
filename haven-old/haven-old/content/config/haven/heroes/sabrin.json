@@ -1,0 +1,72 @@
+{
+	"sabrin" : 
+	{
+		"class" : "admiral",
+		"texts" :
+		{
+			"name" : "Sabrin",
+			"biography" : "One of the most capable students of Hydron, sea bishop Sabrin mastered one of the main components of storm magic - hurling lightning at the enemy. However, he has not yet succeeded in understanding all of the wisdom of Hydron's teachings. Continuing to work at the Storm Library, he hopes that the entirety of this magical art will open itself to him.",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Lightning Bolt.",
+				"description" : "Casts Lightning Bolt with damage increased by 5% for every n hero levels (n - target creature level)",
+				"name" : "Lightning Bolt"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/sabrin/spec-small.png",
+			"specialtyLarge" : "haven/heroes/sabrin/spec-large.png",
+			"large" : "haven/heroes/sabrin/portrait-large.png",
+			"small" : "haven/heroes/sabrin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"lightningBolt" : {
+					"subtype" : "spell.lightningBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
+				}
+			}
+		}
+	}
+}
+
+
+

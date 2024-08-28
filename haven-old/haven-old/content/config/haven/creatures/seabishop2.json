@@ -1,0 +1,76 @@
+{
+	"seabishop2":
+	{
+		"name" :
+		{
+			"plural" : "Cryomancers",
+			"singular" : "Cryomancer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "haven-old",
+		"aiValue" : 2056,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 1100
+		},
+		"damage" :
+		{
+			 "max" : 22,
+			 "min" : 15
+		},
+		"defense" : 15,
+		"fightValue" : 1785,
+		"graphics" :
+		{
+			"animation" : "haven/battle/seabishop2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "haven/map/seabishop2mini.def",
+			"iconSmall" : "haven/iconsSmall/seabishop2s.bmp",
+			"iconLarge" : "haven/iconsBig/seabishop2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+     			"projectile" : "PMAGEX.DEF",	
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},			
+		},
+		
+		"growth" : 2,
+		"shots" : 18,		
+		"hitPoints" : 85,
+		"level" : 6,
+		"sound" :
+		{
+			"attack" : "haven/seaatk.wav",
+			"shoot": "ZELTSHOT.wav",			
+			"defend" : "haven/seaatk.wav",
+			"killed": "MONKKILL.wav",
+			"move": "haven/blank.wav",
+			"startMoving": "haven/movestart.wav",
+			"endMoving": "haven/moveend.wav",			
+			"wince": "PIKEWNCE.wav"               
+		},
+		"speed" : 12,
+		"abilities" : 
+		{
+            "catapult": { "type": "CATAPULT" },
+			"shooter" :	{ "type" : "SHOOTER" },
+			"teleports" : { "subtype" : "movementTeleporting", "type" : "FLYING" }
+		}
+	}
+}

@@ -1,0 +1,69 @@
+{
+	"gallas" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "Gallas",
+			"biography" : "Gallas came from the elves. His name was Galius, and he was one of the prominent military commanders of Gelu but was not at odds with him. Once, crossing the ocean with a message for the continent Enroth elves, he fell into a storm. The ship on which he sailed, sank, but elf was picked up by Illianis, which was just at this time returning from a routine patrol, together with the pirates campaign, earned who Galius was. Illianis allowed him to stay with the condition that elf would practice his archery. Over time, former elf leader was so enamoured by the ways of the coastal dwellers, that they became his. The Mermaids and Undines, with whom he practiced with, called him in their own dialect: Gallas. Under this name he became known as one of the commanders of the Continental Campaign.", 
+			"specialty" :
+			{
+				"tooltip" : "Secondary Skill Bonus: Archery",
+				"name" : "Archery",
+				"description" : "Receives a 5% per level bonus to Archery skill percentage."
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "haven/heroes/gallas/spec-small.png",
+			"specialtyLarge" : "haven/heroes/gallas/spec-large.png",
+			"large" : "haven/heroes/gallas/portrait-large.png",
+			"small" : "haven/heroes/gallas/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"archery" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}
+

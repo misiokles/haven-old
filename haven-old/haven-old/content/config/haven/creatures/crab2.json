@@ -1,0 +1,59 @@
+{
+	"crab2":
+	{
+		"name" :
+		{
+			"plural" : "Armored Crabs",
+			"singular" : "Armored Crab"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "haven-old",
+		"aiValue" : 281,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 225
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 7,
+		"fightValue" : 288,
+		"graphics" :
+		{
+			"animation" : "haven/battle/crab2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "haven/map/crab2mini.def",
+			"iconSmall" : "haven/iconsSmall/crab2s.bmp",
+			"iconLarge" : "haven/iconsBig/crab2l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 10,
+	    "doubleWide" : true,			
+		"hitPoints" : 16,
+        "level" : 2,
+		"abilities" :
+		{
+			"extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+		},		
+		"sound" :
+		{
+			"attack" : "haven/crabatk.wav",
+			"defend" : "haven/crabblk.wav",
+			"killed" : "haven/crabdie.wav",
+			"move": "haven/crabwlk.wav",
+			"wince" : "haven/crabhit.wav"
+		},
+		"speed" : 5
+	}
+}

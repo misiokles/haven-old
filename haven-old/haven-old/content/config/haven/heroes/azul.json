@@ -1,0 +1,74 @@
+{
+	"azul" :
+	{
+		"class" : "admiralf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Azul",
+			"biography" : "Azul is a master of the cold magic school of Leviathan himself. A long practitioner of this school, she teaches the secrets of casting the Frost Ring spell, which she casts perfectly. Having grown tired with teaching, she asked to join Raven's Continental Campaign as she has always wanted to apply her skills in a real combat situation.",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Frost Ring",
+				"name" : "Frost Ring",
+				"description" : "Casts Frost Ring with damage increased by 7% for every n hero levels (n - target creature level)."
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "haven/heroes/azul/spec-small.png",
+			"specialtyLarge" : "haven/heroes/azul/spec-large.png",
+			"large" : "haven/heroes/azul/portrait-large.png",
+			"small" : "haven/heroes/azul/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"frostRing"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.frostRing",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 7
+				}
+			}
+		}
+	}
+}

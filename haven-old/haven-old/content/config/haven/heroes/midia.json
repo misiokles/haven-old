@@ -1,0 +1,68 @@
+{
+	"midia" :
+	{
+		"class" : "admiralf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Midia",
+			"biography" : "A student of Hydron, oracle of the deep, Midia mastered a particular facet of Water Magic - its attenuating effects. Preparing the numerous manuscripts from the Storm Library, she has penetrated into the very essence of this part of Hydron's teachings, and became unmatched in this field of magic.",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Weakness",
+				"description" : "Casts Weakness spell with increased effect, based on the level of the target.",
+				"name" : "Weakness"
+			}
+		},		
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/midia/spec-small.png",
+			"specialtyLarge" : "haven/heroes/midia/spec-large.png",
+			"large" : "haven/heroes/midia/portrait-large.png",
+			"small" : "haven/heroes/midia/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+		       "weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,59 @@
+{
+	"undine" : 
+	{
+		"class" : "manowarf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "The Charming Undine",
+			"biography" : "The Charming Undine is one of the best pupils of the Elf Gallas. She mastered not only the skill of archery, but also the wisdom of military command. Over time, her authority among the other undine became indisputable. So much so that under her command, they always demonstrate excellent morale. A sharp mind and natural cunning allowed Undine to prove herself as an indispensable scout. Illyanis did not have to search for someone for this position on his continental campaign for a long time.",
+			"specialty" :
+			{
+				"tooltip" : "Creature Bonus: Undine",
+				"name" : "Undine",
+				"description" : "Increases Speed of any Undine by 1 and their Attack and defense skills by 5% for every 3 levels (rounded up)."
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/undine/spec-small.png",
+			"specialtyLarge" : "haven/heroes/undine/spec-large.png",
+			"large" : "haven/heroes/undine/portrait-large.png",
+			"small" : "haven/heroes/undine/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "undine1"
+		}	
+	}
+}

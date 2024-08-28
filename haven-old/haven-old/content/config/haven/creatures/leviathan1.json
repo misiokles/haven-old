@@ -1,0 +1,147 @@
+{
+	"leviathan1":
+	{
+		"name" :
+		{
+			"plural" : "Sea serps",
+			"singular" : "Sea serp"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "haven-old",
+		"aiValue" : 5062,
+		"attack" : 18,
+		"cost" :
+		{
+			"gold" : 2500,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 30
+		},
+		"defense" : 18,
+		"fightValue" : 4100,
+		"graphics" :
+		{
+			"animation" : "haven/battle/leviathan1.DEF",
+			"map" : "haven/map/leviathan1mini.def",
+			"iconSmall" : "haven/iconsSmall/leviathan1s.bmp",
+			"iconLarge" : "haven/iconsBig/leviathan1l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.9,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+	
+		},
+		"growth" : 1,
+		"hitPoints" : 170,
+		"level" : 7,
+	    "doubleWide" : true,		
+		"upgrades":
+		[
+			"leviathan2"
+		],
+		"sound" :
+		{
+			"attack" : "haven/leviatk.wav",
+			"defend" : "haven/levihit.wav",
+			"killed" : "haven/levidie.wav",
+			"move": "haven/leviwlk.wav",
+			"wince" : "haven/levihitw.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"KING1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 2, 3, 3, 3, 3, 3, 3, 3]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEAR"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "spellSchool.earth",
+				},
+				"values" : [ 0, 0, 0, 0, 100, 100, 100, 100, 100, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+					
+				},
+				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+			}
+		]
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"klastrus" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "Klastrus",
+			"biography" : "Klastrus grew up in the depths of the ocean, but being curious sought to know what lay beyond the waters surface. Despite the ridicule by his peers, he constantly made attempts to approach the shore. In the end, it nearly cost him his life. He was thrown ashore by a huge wave, and he was almost burnt by the scorching sun. However, he was rescued by Undine the leader of Ravens of archers. When she saw Klastrus lying lifeless, she ordered her subordinates to save the poor octopus by all means. Over time, he began to learn the martial art of defense and the methods of transportation by ships. This quickly led to him being known as a military leader who was able not only to collect tribute from robber coastal enclaves, but also to lead his troops in battle. However, Raven did not take him into his campaign, but Illianis, under the patronage of Undine, ventured to bring him, and did not regret it at all.",
+			"specialty" :
+			{
+				"tooltip" : "Receives a 5% per level bonus to Armorer skill.",
+				"description" : "Receives a 5% per level bonus to Armorer skill.",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/klastrus/spec-small.png",
+			"specialtyLarge" : "haven/heroes/klastrus/spec-large.png",
+			"large" : "haven/heroes/klastrus/portrait-large.png",
+			"small" : "haven/heroes/klastrus/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

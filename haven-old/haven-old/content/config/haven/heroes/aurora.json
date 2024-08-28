@@ -1,0 +1,73 @@
+{
+	"aurora" :
+	{
+		"class" : "admiralf",
+		"female" : true,		
+		"texts" :
+		{
+			"name" : "Aurora",
+			"biography" : "Aurora was a student of Hydron, in his library. She perfectly mastered one of the magical techniques of her teacher which lets her to control the cold. She continues to dismantle many his manuscripts that remained after he teleported to the Elemental Plans. Perhaps eventually the oracle of the deep Aurora will be a worthy successor to Hydron.",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Ice Bolt.",
+				"description" : "Casts Ice Bolt with damage increased by 5% for every n hero levels (n - target creature level)",
+				"name" : "Ice Bolt"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "haven/heroes/aurora/spec-small.png",
+			"specialtyLarge" : "haven/heroes/aurora/spec-large.png",
+			"large" : "haven/heroes/aurora/portrait-large.png",
+			"small" : "haven/heroes/aurora/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
+				}
+			}
+		}
+	}
+}
+

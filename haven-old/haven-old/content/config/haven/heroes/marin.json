@@ -1,0 +1,57 @@
+{
+	"marin" :
+	{
+		"class" : "admiral",
+		"texts" :
+		{
+			"name" : "Marin",
+			"biography" : "Being a master of Aquaron Sea Bishops Guild, Marin is an expert of Water Magic. He perfectly learned all the subtleties of this magical school. By the patronage of Aquaron, Raven took Marin in his Continental Campaign and awarded him the status of Admiral.",
+			"specialty" :
+			{
+				"description" : "Starts with Advanced Water Magic skill.",
+				"tooltip" : "Secondary Skill Bonus: Water Magic",
+				"name" : "Water Magic"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/marin/spec-small.png",
+			"specialtyLarge" : "haven/heroes/marin/spec-large.png",
+			"large" : "haven/heroes/marin/portrait-large.png",
+			"small" : "haven/heroes/marin/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"bless"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+		}
+	}
+}

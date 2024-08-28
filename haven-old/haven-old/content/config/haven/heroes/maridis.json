@@ -1,0 +1,70 @@
+{
+	"maridis" :
+	{
+		"class" : "admiral",
+		"texts" :
+		{
+			"name" : "Maridis",
+			"biography" : "One of the four Hydron students and founder of his library, Maridis truly reached perfection in the restoration of mana. The most cherished of his desire is to find someday the magic key to the power to restore mana. This key is created by Leviathan and named Pearl of Ocean. The fact that there is such a key, he learned from his teacher and since the idea does not abandon him to find this key. After all, if it happens then mana will never end.", 
+			"specialty" :
+			{
+				"tooltip" : "Bonus to Mysticism",
+				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
+				"name" : "Mysticism"
+			}
+		},		
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/maridis/spec-small.png",
+			"specialtyLarge" : "haven/heroes/maridis/spec-large.png",
+			"large" : "haven/heroes/maridis/portrait-large.png",
+			"small" : "haven/heroes/maridis/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"bless"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

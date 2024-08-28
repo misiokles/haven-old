@@ -1,0 +1,70 @@
+{
+	"stella" :
+	{
+		"class" : "admiralf",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Stella",
+			"biography" : "Stella spent much time in libraries exploring ancient manuscripts from sunken ships in the whirlpools. It was for this reason that she quickly became a powerful magician. She primarily focused her studies on the spell Haste. Hearing about this her abilities, Raven awarded her the rank of admiral in his mission",
+			"specialty" :
+			{
+				"tooltip" : "Spell Bonus: Haste",
+				"name" : "Haste",
+				"description" : "Casts Haste spell with increased effect, based on the level of the target."
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/stella/spec-small.png",
+			"specialtyLarge" : "haven/heroes/stella/spec-large.png",
+			"large" : "haven/heroes/stella/portrait-large.png",
+			"small" : "haven/heroes/stella/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "undine1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"haste" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"sargas" :
+	{
+		"class" : "manowar",
+		"texts" :
+		{
+			"name" : "Sargas",
+			"biography" : "Sargas for a long time studied the basics of navigation and intelligence and has quite succeeded in this. Skilfully using his knowledge, he successfully controlled a large number of pirate enclaves. Knowing this, Commander-in-Chief Raven invited him to join his mission, making responsible for the sea movement of his troops.",
+			"specialty" : 
+			{
+				"tooltip" : "Secondary Skill Bonus: Navigation",
+				"name" : "Navigation",
+				"description" : "Receives a 5% per level bonus to movement points at sea."
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "haven/heroes/sargas/spec-small.png",
+			"specialtyLarge" : "haven/heroes/sargas/spec-large.png",
+			"large" : "haven/heroes/sargas/portrait-large.png",
+			"small" : "haven/heroes/sargas/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "triton1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "crab1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "crab1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "navigation"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"navigation" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : "heroMovementSea",
+					"type" : "MOVEMENT",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,89 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"havTritonBarracks-old" : {
+				"name" : "Triton Barracks",
+				"creatures" : [[ "triton1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "haven/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VBV", "BAV" ]
+					}
+				}
+			},
+			"havCrabNest-old" : {
+				"name" : "Crab Nest",
+				"creatures" : [[ "crab1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "haven/adventure-map/dwelling-2.def",
+						"mask" : [ "BBV", "BAV" ]
+					}
+				}
+			},			
+			"havSpiderCrabNest-old" : {
+				"name" : "Spider Crab Nest",
+				"creatures" : [[ "crab3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "haven/adventure-map/dwelling-8.def",
+						"mask" : [ "VBA" ]
+					}
+				}
+			},
+			"havUndineTower-old" : {
+				"name" : "Undine Tower",
+				"creatures" : [[ "undine1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "haven/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"havSirensRoost-old" : {
+				"name" : "Sirens Roost",
+				"creatures" : [[ "siren1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "haven/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBV", "VAV" ]
+					}
+				}
+			},
+			"havShrineofDepths-old" : {
+				"name" : "Shrine of Depths",
+				"creatures" : [[ "octo1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "haven/adventure-map/dwelling-5.def",
+						"mask" : [ "BBV", "VAV" ]
+					}
+				}
+			},
+			"havHydronAcademy-old" : {
+				"name" : "Hydron Academy",
+				"creatures" : [[ "seabishop1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "haven/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VAB" ]
+					}
+				}
+			},
+			"havLeviathanTemple-old" : {
+				"name" : "Leviathan Temple",
+				"creatures" : [[ "leviathan1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "haven/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "BAV" ]
+					}
+				}
+			}
+		}		
+	}
+}
